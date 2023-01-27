@@ -101,13 +101,16 @@ body {
 .contact-list-item:last-child {
   margin-right: 0;
 }
+
 .test {
   width: 400px;
   height: 400px;
-
-  background-image: url("../images/icomoon/symbol-defs.svg");
-  background-position: center;
 }
+.test .icon {
+  width: 100px;
+  height: 100px;
+}
+
 .contact-link {
   display: inline-flex;
   padding-top: 32px;
